@@ -106,3 +106,113 @@
     border: 1px solid white;
     background-color: transparent;
 }
+.main{
+    margin-top: 174px;
+}
+.container{
+    margin: auto;
+    width: 1000px;
+}
+.main__projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+}
+.line-one{
+    border: 3px solid #005BC1;
+    width: 100px;
+    background-color: #005BC1;
+}
+.line-two{
+    border: 3px solid #005BC1;
+    width: 50px;
+    margin-top: 13px;
+    margin-left: 50px;
+    background-color: #005BC1;
+}
+.main__title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-left: 40px;
+}
+.slider-menu__button{
+    border: 2px solid #005BC1;
+    width: 55px;
+    height: 55px;
+}
+.projects__photo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.img__photo{
+    width: 540px;
+    height: 400px;
+}
+.info-photo{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 250px;
+    height: 110px;
+    margin-bottom: 50px;
+}
+.organization{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+}
+.photo{
+    position: relative;
+    z-index: -1;
+}
+.photo{
+    width: 540px;
+    height: 400px;
+}
+.info-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+.title-photo{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.photo-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 25px;
+}
+.info-photo{
+    margin-top: 250px;
+    margin-left: 200px;
+}
