@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hg{
+    background: rgba(0, 91, 193, 0.6);
+    Width:1920px;
+    Height:80px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    height: 58px;
+    width: 140px;
+    margin-left: 40px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.header{
+    background-image: url(img/row.png);
+    width: 1920px;
+    height: 800px;
+    margin: auto;
+}
+.nav__text{
+    list-style-type: none;
+}
+.text{
+    text-decoration: none;
+    color: white;
+    margin-left: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 555px;
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+.header__nav{
+    display: flex;
+    flex-direction: row;
+}
+.title__background{
+    z-index: -1;
+    width: 444px;
+    height: 720px;
+    background: rgba(0, 91, 193, 0.6);
+    margin-left: 405px;
+}
+.header__title{
+    position: absolute;
+    z-index: 0;
+}
+.title{
+    position: absolute;
+    z-index: 1;
+    margin-left: 595px;
+    margin-top: 282px;
+    margin-bottom: 376px;
+    width: 570px;
+}
+.title__text{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+}
+.title__desc{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+.button__text{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+.button{
+    margin-top: 40px;
+    width: 160px;
+    height: 51px;
+    border: 1px solid white;
+    background-color: transparent;
+}
