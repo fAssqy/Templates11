@@ -216,3 +216,136 @@
     margin-top: 250px;
     margin-left: 200px;
 }
+
+.slider-menu__button{
+    border: 2px solid #005BC1;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+.projects__photo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.img__photo{
+    width: 540px;
+    height: 400px;
+}
+.info-photo{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 250px;
+    height: 110px;
+    margin-bottom: 50px;
+}
+.organization{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+}
+.photo{
+    position: relative;
+    z-index: -1;
+}
+.photo{
+    width: 540px;
+    height: 400px;
+}
+.info-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+.title-photo{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.photo-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 25px;
+}
+.info-photo{
+    margin-top: 250px;
+    margin-left: 200px;
+}
+.product-catalog{
+    margin-top: 168px;
+}
+.text__active{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.text__active:hover{
+    text-decoration: underline;
+    color: #005BC1;
+}
+.text__robe-computer{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.slidergoods-items {
+    width: 350px;
+    height: 300px;
+    border: 1px solid #005BC1;
+    display: flex;
+    justify-content: right;
+}
+
+.slidergoods-items-desc {
+    background-color: #005BC1;
+    width: 265px;
+    height: 86px;
+    margin-top: 199px;
+}
+
+.slider__goods-items-desc-text {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-left: 21px;
+    color: white;
+    margin-bottom: 20px;
+}
+.robe-computer{
+    display: flex;
+    margin-top: 55px;
+}
