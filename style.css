@@ -370,3 +370,61 @@
     display: flex;
     margin-top: 55px;
 }
+.rent{
+    margin-top: 168px;
+}
+.rent__text{
+    font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #343434;
+}
+.rent__text{
+    width: 300px;
+    height: 175px;
+    margin-top: 150px;
+}
+.rental-title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-left: 30px;
+    margin-top: 42px;
+}
+.rent__items{
+    border: 3px solid #005BC1;
+    width: 665px;
+    height: 394px;
+    margin-left: 45px;
+}
+.rental-title-text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.product__text{
+    font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+}
+.product__description{
+    margin-top: 30px;
+    margin-left: 50px;
+}
